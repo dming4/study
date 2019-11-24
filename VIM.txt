@@ -1,0 +1,32 @@
+Command
+i: insert  insert mode
+I: insert head of line
+a: append
+A: Append end of line
+o: open a line below
+O:open a line above
+
+ESC: normal mode
+:wq write and quit
+
+command mode
+:wq
+:q
+:wq!
+:set nu
+:vs   vertical split
+
+visual mode
+v:
+V:
+ctrl+v:
+
+quick moving
+w/W
+e/E
+b/B
+0 move to line beginning
+$ move to line endding
+gg move to page beginning
+G move to page endding
+ctrl+u: delete line
