@@ -1,0 +1,20 @@
+1:react extension
+
+https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets
+
+2:PureComponent
+
+3:组件通信
+npm install events --save
+pubsub-js
+https://github.com/mroderick/PubSubJS
+
+4:react使用swiper
+npm install save swiper 
+ npm install swiper -S
+ https://segmentfault.com/a/1190000023076365
+ 
+ 5:请求
+ xhr
+ jquery
+ axios
