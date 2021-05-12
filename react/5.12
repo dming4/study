@@ -18,3 +18,6 @@ npm install save swiper
  xhr
  jquery
  axios
+
+6:ant design
+npm install antd --save
