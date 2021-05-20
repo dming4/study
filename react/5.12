@@ -28,3 +28,4 @@ https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopl
 npm install --save redux-thunk
 // 根据counter函数创建store对象
 const store = createStore(counter, applyMiddleware(thunk));
+异步action creator(返回一个函数)
