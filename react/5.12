@@ -29,3 +29,13 @@ npm install --save redux-thunk
 // 根据counter函数创建store对象
 const store = createStore(counter, applyMiddleware(thunk));
 异步action creator(返回一个函数)
+
+export const incrementAsync = (number) => {
+  return async (dispatch) => {
+    await delay(1000);
+    fetch('www.baidu.com').then((v) => {
+      dispatch(increment(number));
+    });
+  };
+};
+
