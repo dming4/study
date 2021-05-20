@@ -24,3 +24,7 @@ npm install antd --save
 
 7:React Developer Tools
 https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+8:异步编程
+npm install --save redux-thunk
+// 根据counter函数创建store对象
+const store = createStore(counter, applyMiddleware(thunk));
