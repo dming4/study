@@ -1,0 +1,65 @@
+ls
+list directory contensts
+ll == ls -alF
+-l:use a long listing format
+-F: append indicator to entries
+-h: human
+
+mkdir
+touch
+cp -rf
+rm -rf
+mv 重命名或者移动文件/目录
+cat concatenate
+more
+less
+opposite of more,读取快，不是一次性读取出来
+> && >>指令
+
+
+which find   /usr/bin/find
+whereis ls 
+
+find
+find / -size +20M    >20M 
+find / -name 'hello.txt'
+fint / -name init.*
+
+Grep 是 Global Regular Expression Print 的缩写
+grep [OPTION] PATTERN [FILE]
+grep -i -n -r 'yes' /home
+-i:忽略大小写
+-c计算找到符号行的次数
+-n:输出行号
+
+
+
+date
+date "+%Y %m %d"
+date -s 
+
+mkdir -p /a/b/c
+-p:parents, make parent directories as needed
+rm -rf
+
+1：用户管理
+useradd -m ming
+-m:create home directory
+ 
+sudo passwd root
+passwd:change user password
+
+su root
+change user ID or become superusr
+
+id ming
+print user id, group id, 
+
+usermod
+usermod -g root ming
+
+用户配置文件 /ect/passwd
+组配置文件 /ect/group
+密码文件  /etc/shadow
+
+2：
